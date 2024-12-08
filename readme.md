@@ -23,7 +23,7 @@ tinygo build -o main.wasm -scheduler=none -target=wasi main.go
 func-e run -c envoy.yaml
 ```
 
-##### Tests
+#### Tests
 
  - Virtual-hosted-style access:
 Should allow access:
